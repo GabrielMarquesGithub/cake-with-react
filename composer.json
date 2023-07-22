@@ -1,7 +1,6 @@
 {
-    "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
-    "homepage": "https://cakephp.org",
+    "name": "bookstore",
+    "description": "Testing the use of cakePHP with React",
     "type": "project",
     "license": "MIT",
     "require": {
