@@ -1,0 +1,92 @@
+:root {
+    --radius-base: 5px;
+
+    --shadow-base: 0px 1px 5px 1px rgb(0, 0, 0, 0.25);
+}
+
+/* Header */
+.my-navbar-container {
+    height: 80px;
+    margin: 20px 0;
+    padding: 0 20px;
+    border-radius: var(--radius-base);
+    box-shadow: var(--shadow-base);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #03045e;
+}
+.my-logo {
+    display: flex;
+    align-items: center;
+}
+
+.my-logo h1,
+.my-logo h2 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.my-logo h1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.my-navbar {
+    height: 100%;
+
+    display: flex;
+}
+
+.my-navbar a {
+    height: 100%;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: transparent;
+    color: #ffffff;
+
+    transition: 400ms;
+}
+.my-navbar a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.my-navbar a:hover * {
+    fill: #000000;
+}
+
+.my-navbar a span * {
+    transition: 400ms;
+}
+
+/* Reutilizáveis */
+.my-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-icon svg {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.my-text {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.my-text-bold {
+    font-weight: 700;
+}
